@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOSboardgame", "SOSboardgame\SOSboardgame.csproj", "{BA3BC3EB-7CF5-4718-A098-71A34168E65E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOSboardgame.Tests", "SOSboardgame.Tests\SOSboardgame.Tests.csproj", "{5D268D8D-2A0A-4AEF-B0FC-45BB18DEE7BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA3BC3EB-7CF5-4718-A098-71A34168E65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3BC3EB-7CF5-4718-A098-71A34168E65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3BC3EB-7CF5-4718-A098-71A34168E65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3BC3EB-7CF5-4718-A098-71A34168E65E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D268D8D-2A0A-4AEF-B0FC-45BB18DEE7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D268D8D-2A0A-4AEF-B0FC-45BB18DEE7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D268D8D-2A0A-4AEF-B0FC-45BB18DEE7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D268D8D-2A0A-4AEF-B0FC-45BB18DEE7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1F6153E-8D7A-4361-889A-B632744F10EF}
+	EndGlobalSection
+EndGlobal

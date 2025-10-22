@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D268D8D-2A0A-4AEF-B0FC-45BB18DEE7BA}|SOSboardgame.Tests\\SOSboardgame.Tests.csproj|c:\\users\\jason\\source\\repos\\sosboardgame\\sosboardgame.tests\\sosboardgame.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5D268D8D-2A0A-4AEF-B0FC-45BB18DEE7BA}|SOSboardgame.Tests\\SOSboardgame.Tests.csproj|solutionrelative:sosboardgame.tests\\sosboardgame.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3BC3EB-7CF5-4718-A098-71A34168E65E}|SOSboardgame\\SOSboardgame.csproj|c:\\users\\jason\\source\\repos\\sosboardgame\\sosboardgame\\sosboardgame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BA3BC3EB-7CF5-4718-A098-71A34168E65E}|SOSboardgame\\SOSboardgame.csproj|solutionrelative:sosboardgame\\sosboardgame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3BC3EB-7CF5-4718-A098-71A34168E65E}|SOSboardgame\\SOSboardgame.csproj|c:\\users\\jason\\source\\repos\\sosboardgame\\sosboardgame\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3BC3EB-7CF5-4718-A098-71A34168E65E}|SOSboardgame\\SOSboardgame.csproj|solutionrelative:sosboardgame\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3BC3EB-7CF5-4718-A098-71A34168E65E}|SOSboardgame\\SOSboardgame.csproj|c:\\users\\jason\\source\\repos\\sosboardgame\\sosboardgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3BC3EB-7CF5-4718-A098-71A34168E65E}|SOSboardgame\\SOSboardgame.csproj|solutionrelative:sosboardgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3BC3EB-7CF5-4718-A098-71A34168E65E}|SOSboardgame\\SOSboardgame.csproj|c:\\users\\jason\\source\\repos\\sosboardgame\\sosboardgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA3BC3EB-7CF5-4718-A098-71A34168E65E}|SOSboardgame\\SOSboardgame.csproj|solutionrelative:sosboardgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3BC3EB-7CF5-4718-A098-71A34168E65E}|SOSboardgame\\SOSboardgame.csproj|c:\\users\\jason\\source\\repos\\sosboardgame\\sosboardgame\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3BC3EB-7CF5-4718-A098-71A34168E65E}|SOSboardgame\\SOSboardgame.csproj|solutionrelative:sosboardgame\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D268D8D-2A0A-4AEF-B0FC-45BB18DEE7BA}|SOSboardgame.Tests\\SOSboardgame.Tests.csproj|c:\\users\\jason\\source\\repos\\sosboardgame\\sosboardgame.tests\\gamecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D268D8D-2A0A-4AEF-B0FC-45BB18DEE7BA}|SOSboardgame.Tests\\SOSboardgame.Tests.csproj|solutionrelative:sosboardgame.tests\\gamecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D268D8D-2A0A-4AEF-B0FC-45BB18DEE7BA}|SOSboardgame.Tests\\SOSboardgame.Tests.csproj|c:\\users\\jason\\source\\repos\\sosboardgame\\sosboardgame.tests\\boardtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D268D8D-2A0A-4AEF-B0FC-45BB18DEE7BA}|SOSboardgame.Tests\\SOSboardgame.Tests.csproj|solutionrelative:sosboardgame.tests\\boardtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SOSboardgame.csproj",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame\\SOSboardgame.csproj",
+              "RelativeDocumentMoniker": "SOSboardgame\\SOSboardgame.csproj",
+              "ToolTip": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame\\SOSboardgame.csproj",
+              "RelativeToolTip": "SOSboardgame\\SOSboardgame.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-22T02:51:07.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "SOSboardgame\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame\\AssemblyInfo.cs",
+              "RelativeToolTip": "SOSboardgame\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:48:43.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SOSboardgame.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame.Tests\\SOSboardgame.Tests.csproj",
+              "RelativeDocumentMoniker": "SOSboardgame.Tests\\SOSboardgame.Tests.csproj",
+              "ToolTip": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame.Tests\\SOSboardgame.Tests.csproj",
+              "RelativeToolTip": "SOSboardgame.Tests\\SOSboardgame.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-22T02:31:35.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BoardTests.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame.Tests\\BoardTests.cs",
+              "RelativeDocumentMoniker": "SOSboardgame.Tests\\BoardTests.cs",
+              "ToolTip": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame.Tests\\BoardTests.cs",
+              "RelativeToolTip": "SOSboardgame.Tests\\BoardTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:10:22.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame.Tests\\GameControllerTests.cs",
+              "RelativeDocumentMoniker": "SOSboardgame.Tests\\GameControllerTests.cs",
+              "ToolTip": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame.Tests\\GameControllerTests.cs",
+              "RelativeToolTip": "SOSboardgame.Tests\\GameControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:10:04.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameLogic.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame\\GameLogic.cs",
+              "RelativeDocumentMoniker": "SOSboardgame\\GameLogic.cs",
+              "ToolTip": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame\\GameLogic.cs",
+              "RelativeToolTip": "SOSboardgame\\GameLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T01:53:43.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SOSboardgame\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame\\MainWindow.xaml",
+              "RelativeToolTip": "SOSboardgame\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T01:52:47.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SOSboardgame\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SOSboardgame\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T01:52:47.272Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
