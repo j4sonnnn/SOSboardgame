@@ -103,3 +103,4 @@ C:\Users\jason\source\repos\SOSboardgame\SOSboardgame.Tests\obj\Debug\net8.0-win
 C:\Users\jason\source\repos\SOSboardgame\SOSboardgame.Tests\obj\Debug\net8.0-windows\SOSboardgame.Tests.pdb
 C:\Users\jason\source\repos\SOSboardgame\SOSboardgame.Tests\obj\Debug\net8.0-windows\SOSboardgame.Tests.genruntimeconfig.cache
 C:\Users\jason\source\repos\SOSboardgame\SOSboardgame.Tests\obj\Debug\net8.0-windows\ref\SOSboardgame.Tests.dll
+C:\Users\jason\source\repos\SOSboardgame\SOSboardgame.Tests\obj\Debug\net8.0-windows\SOSboardgame.Tests.sourcelink.json

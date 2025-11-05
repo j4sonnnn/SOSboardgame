@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SOSboardgame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6746bd2d27366ea5f393b3c8d82eed2076b12283")]
 [assembly: System.Reflection.AssemblyProductAttribute("SOSboardgame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SOSboardgame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
