@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c47osFXfIQI=",
+  "dgSpecHash": "JUYlKMPsxNI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame.Tests\\SOSboardgame.Tests.csproj",
+  "projectFilePath": "C:\\Users\\jason\\source\\repos\\SOSnewgame\\SOSboardgame.Tests\\SOSboardgame.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jason\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\jason\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

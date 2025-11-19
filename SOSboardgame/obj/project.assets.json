@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame\\SOSboardgame.csproj",
+      "projectUniqueName": "C:\\Users\\jason\\source\\repos\\SOSnewgame\\SOSboardgame\\SOSboardgame.csproj",
       "projectName": "SOSboardgame",
-      "projectPath": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame\\SOSboardgame.csproj",
+      "projectPath": "C:\\Users\\jason\\source\\repos\\SOSnewgame\\SOSboardgame\\SOSboardgame.csproj",
       "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jason\\source\\repos\\SOSboardgame\\SOSboardgame\\obj\\",
+      "outputPath": "C:\\Users\\jason\\source\\repos\\SOSnewgame\\SOSboardgame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
