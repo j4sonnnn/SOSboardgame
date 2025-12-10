@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SOSboardgame.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+053dff13b26e28553813933a0878ba1492bb520e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d10ad6f5c9a07848066deb33094ce30deeef3d3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SOSboardgame.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SOSboardgame.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

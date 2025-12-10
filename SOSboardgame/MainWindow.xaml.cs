@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -13,6 +15,10 @@ namespace SOSboardgame
 
         private SOSGame? game;
         private Button[,]? boardButtons;
+
+        // NEW FOR SPRINT 5
+        private List<(int row, int col, char letter)> recordedMoves = new();
+        private int replayIndex = 0;
 
         public MainWindow()
         {
@@ -44,7 +50,12 @@ namespace SOSboardgame
 
             currentPlayer = bluePlayer;
 
+            // RESET BOARD + REPLAY DATA
             BuildBoard(size);
+            recordedMoves.Clear();
+            replayIndex = 0;
+            MoveCounterLabel.Content = "Move 0 / 0";
+
             UpdateTurnLabel();
 
             if (currentPlayer.Type == PlayerType.Computer)
@@ -90,21 +101,24 @@ namespace SOSboardgame
         private void HandleHumanMove(Button btn, int row, int col)
         {
             if (game == null || game.IsGameOver) return;
-
-            if (currentPlayer!.Type == PlayerType.Computer)
-                return;
+            if (currentPlayer!.Type == PlayerType.Computer) return;
 
             char letter = (LetterS.IsChecked == true) ? 'S' : 'O';
 
             if (game.PlaceLetter(row, col, letter))
             {
                 UpdateCellUI(btn, letter);
+
+                // RECORD MOVE
+                recordedMoves.Add((row, col, letter));
+                MoveCounterLabel.Content = $"Move {recordedMoves.Count} / {recordedMoves.Count}";
+
                 AfterMoveLogic();
             }
         }
 
         // -------------------------------------------------------
-        // UPDATE BOARD CELL UI
+        // UPDATE CELL UI
         // -------------------------------------------------------
         private void UpdateCellUI(Button btn, char letter)
         {
@@ -164,7 +178,6 @@ namespace SOSboardgame
                 return;
 
             var (row, col, letter) = currentPlayer!.ChooseMove(game);
-
             if (row == -1) return;
 
             var btn = boardButtons[row, col];
@@ -172,25 +185,99 @@ namespace SOSboardgame
             game.PlaceLetter(row, col, letter);
             UpdateCellUI(btn, letter);
 
+            // RECORD COMPUTER MOVE
+            recordedMoves.Add((row, col, letter));
+            MoveCounterLabel.Content = $"Move {recordedMoves.Count} / {recordedMoves.Count}";
+
             AfterMoveLogic();
         }
 
         // -------------------------------------------------------
-        // TURN LABEL UI
+        // UPDATE TURN TEXT
         // -------------------------------------------------------
         private void UpdateTurnLabel()
         {
             if (game == null)
             {
-                TurnLabel.Text = "Click 'Start New Game' to begin.";
+                TurnLabel.Content = "Click 'Start New Game' to begin.";
             }
             else
             {
-                TurnLabel.Text =
+                TurnLabel.Content =
                     $"Current turn: {game.CurrentTurn}  •  " +
                     $"Mode: {(game is GeneralSOSGame ? "General" : "Simple")}  •  " +
                     $"Size: {game.BoardSize}x{game.BoardSize}";
             }
+        }
+
+        // -------------------------------------------------------
+        // ⭐ REPLAY BUTTON CLICK
+        // -------------------------------------------------------
+        private async void ReplayButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (recordedMoves.Count == 0)
+            {
+                MessageBox.Show("No moves recorded yet!", "Replay", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            if (game == null)
+            {
+                MessageBox.Show("Start a game first.", "Replay", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            BuildBoard(game.BoardSize);
+
+            replayIndex = 0;
+            MoveCounterLabel.Content = $"Move 0 / {recordedMoves.Count}";
+
+            int delay = GetReplayDelay();
+
+            foreach (var (row, col, letter) in recordedMoves)
+            {
+                var btn = boardButtons[row, col];
+
+                btn.Content = letter.ToString();
+                btn.Foreground = Brushes.Black;
+                btn.Background = Brushes.LightYellow;
+
+                await HighlightCell(btn);
+
+                replayIndex++;
+                MoveCounterLabel.Content = $"Move {replayIndex} / {recordedMoves.Count}";
+
+                await Task.Delay(delay);
+            }
+        }
+
+        // -------------------------------------------------------
+        // ⭐ HIGHLIGHT CELL ANIMATION
+        // -------------------------------------------------------
+        private async Task HighlightCell(Button cell)
+        {
+            cell.BorderBrush = Brushes.Gold;
+            cell.BorderThickness = new Thickness(3);
+
+            await Task.Delay(300);
+
+            cell.BorderBrush = Brushes.Black;
+            cell.BorderThickness = new Thickness(1);
+        }
+
+        // -------------------------------------------------------
+        // ⭐ REPLAY SPEED
+        // -------------------------------------------------------
+        private int GetReplayDelay()
+        {
+            string speed = (ReplaySpeedBox.SelectedItem as ComboBoxItem)?.Content.ToString();
+
+            return speed switch
+            {
+                "Slow" => 700,
+                "Fast" => 150,
+                _ => 400, // Normal
+            };
         }
     }
 }
